@@ -1,0 +1,48 @@
+i {
+  padding: 0px 5px;
+}
+
+.home-container {
+  position: absolute;
+  /* min-height: 100vh; */
+  /* text-align: center; */
+  min-width: 100%;
+}
+
+.App-logo {
+  position: fixed;
+  /* pointer-events: none; */
+  filter: blur(5px);
+}
+
+.home-text {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  /* margin-top: 200px; */
+  /* filter: blur(1px) !important; */
+}
+
+.home-img {
+  position: fixed;
+  filter: opacity(0.05);
+  /* height: 200px; */
+  /* width: 200px; */
+  /* margin: auto; */
+}
+
+.icon {
+  color: black;
+  background-color: black;
+}
+
+.home-text-container {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  /* background-color: #ffffffc0; */
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30vh;
+}

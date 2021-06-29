@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #fafafa !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: local("Gilroy-ExtraBold"),
+    url(../src/resources/Gilroy-ExtraBold.otf) format("otf");
+}
+
+/* work  */
+.content-wrapper {
+  padding-top: 72px !important;
+  padding-bottom: 5vh !important;
+}
+
+/* home  */
+/* .content-wrapper {
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+} */
+
+/* contact  */
+/* .content-wrapper {
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+} */
+
+/* --------- kbd Button ---------- */
+.kbd-btn {
+  text-align: center;
+  text-decoration: none !important;
+
+  width: 50%;
+
+  display: flex;
+  margin: auto;
+  margin-top: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 15px;
+  color: white;
+  background: rgb(0, 74, 134);
+  background: linear-gradient(
+    120deg,
+    rgb(15, 134, 231) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  justify-content: center;
+
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.kbd-btn:hover {
+  color: white;
+  text-decoration: none;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.1);
+
+  color: #fff;
+  transform: translateY(-2px);
+}
+/* 
+kbd Button Example:
+<a className="kbd-btn" href="/contact"> 
+  get in touch 
+</a>  
+*/
+
+/* --------- kbd Link ---------- */
+
+.kbd-link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #4cacfc;
+}
+
+.kbd-link:hover {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+/* 
+kbd Link Example: 
+<a
+  href="http://bowtiesbridal.com/"
+  className="kbd-link h2"
+  target="_blank"
+>
+  Bowties Bridal
+</a>
+
+*/
+
+/* --------- Laptop Screen Section ---------- */
+@media only screen and (min-width: 600px) {
+  .home-image {
+    width: 50%;
+  }
+
+  .kbd-btn {
+    width: 50%;
+  }
+}
