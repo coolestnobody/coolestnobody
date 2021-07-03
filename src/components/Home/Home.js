@@ -13,7 +13,7 @@ const Home = (props) => {
         {/* <img src="../../resources/pic.jpg" alt="" className="home-img"/> */}
         <div className="home-text-container">
           <p className="home-text">coolestnobody.com coming soon 😳</p>
-
+          <p className="home-text">lol</p>
           <a href="https://www.instagram.com/coolestnobodyart/" target="_blank">
             <i className="fa fa-instagram fa-lg"></i>
           </a>
