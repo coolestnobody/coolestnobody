@@ -24,7 +24,7 @@ _note that no changes show up until u save whatever file u edited in vs code owo
 * to check what branch ur on
     * git status
 
-_if ur tring to push, pull, or switch and it's giving you a hard time, type_ **git fetch** _to store your changes and it should work B-)_
+_if ur tring to push, pull, or switch and it's giving you a hard time, type_ **git stash** _to store your changes and it should work B-)_
 
 ## making your changes live
 * if ur good to go, merge all ur changes into develop and then merge develop into master
